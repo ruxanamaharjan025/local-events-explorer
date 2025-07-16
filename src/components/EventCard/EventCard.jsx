@@ -9,7 +9,7 @@ const EventCard = ({ event }) => {
       <img
         src={imageSrc}
         alt={event.title}
-        className="w-full h-48 object-cover mb-4 rounded-t-lg"
+        className="w-full h-48 object-cover rounded-t-lg"
       />
 
       <div className="p-4 flex flex-col justify-between flex-grow text-left">
