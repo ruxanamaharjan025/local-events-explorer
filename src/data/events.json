@@ -25,6 +25,24 @@
       "location": "Edinburgh",
       "description": "Live jazz performances by local artists. Live jazz performances by local artists. Live jazz performances by local artists. Live jazz performances by local artists.  Live jazz performances by local artists.  Live jazz performances by local artists.  Live jazz performances by local artists.  Live jazz performances by local artists.  Live jazz performances by local artists.  Live jazz performances by local artists.  ",
       "image": "Event 3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Business Seminar",
+      "date": "2025-08-20",
+      "category": "Business",
+      "location": "Manchester",
+      "description": "Showcasing local businesses. Showcasing local businesses.Showcasing local businesses. Showcasing local businesses. Showcasing local businesses. Showcasing local businesses. Showcasing local businesses. Showcasing local businesses.",
+      "image": "Event 2.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Tech Meet",
+      "date": "2025-08-23",
+      "category": "Technology",
+      "location": "Ashford",
+      "description": "Oppotunity for graduates. Oppotunity for graduates. Oppotunity for graduates. Oppotunity for graduates. Oppotunity for graduates. Oppotunity for graduates.",
+      "image": "Event 1.jpg"
     }
   ]
   
