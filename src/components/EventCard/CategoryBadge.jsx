@@ -5,22 +5,22 @@ import React from "react";
 //Styles based on Category type.
 const categoryStyles = {
   Technology: {
-    bg: "bg-yellow-200",
+    bg: "bg-yellow-100",
     text: "text-yellow-900",
     icon: "💻",
   },
   Art: {
-    bg: "bg-pink-200",
+    bg: "bg-pink-100",
     text: "text-pink-900",
     icon: "🎨",
   },
   Music: {
-    bg: "bg-green-200",
+    bg: "bg-green-100",
     text: "text-green-900",
     icon: "🎵",
   },
   Business: {
-    bg: "bg-blue-200",
+    bg: "bg-blue-100",
     text: "text-blue-900",
     icon: "💼",
   },
