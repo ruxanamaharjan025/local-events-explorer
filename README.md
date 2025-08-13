@@ -14,18 +14,29 @@ A React app to explore and filter local events by title, city, and category.
 ```
 src/
   components/
+    EventCard/
+      CategoryBadge.jsx
+      EventCard.jsx
+      index.js
+    FilterBar/
+      FilterBar.jsx
+      index.js
     NavBar/
       NavBar.jsx
+      index.js
     EventList.jsx
-    EventCard.jsx
-    FilterBar.jsx
+    index.js
+    Modal.jsx
+  data/
+    events.json
   layouts/
     MainLayout.jsx
   pages/
     HomePage.jsx
-  data/
-    events.json
+  App.css
   App.jsx
+  index.css
+  main.jsx
 ```
 
 ## Getting Started
