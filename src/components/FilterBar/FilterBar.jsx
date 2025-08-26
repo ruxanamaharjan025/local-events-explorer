@@ -1,13 +1,18 @@
-import React from "react";
+import { useState } from "react";
 import { FaFilter } from "react-icons/fa";
+import { useEventContext } from "../../context/EventContext";
 
-const FilterBar = ({
-  searchCity,
-  setSearchCity,
-  selectedCategory,
-  setSelectedCategory,
-  handleFilter,
-}) => {
+const FilterBar = () => {
+  const { applyFilters } = useEventContext();
+
+  const [city, setCity] = useState("");
+  const [category, setCategory] = useState("");
+
+  const handleFilter = (e) => {
+    e.preventDefault();
+    applyFilters(city, category);
+  };
+
   return (
     <div className="w-full sm:w-1/4 border rounded-lg shadow-sm bg-white m-4 p-4">
       <form onSubmit={handleFilter} className="flex flex-col gap-4">
@@ -21,8 +26,8 @@ const FilterBar = ({
           <input
             type="text"
             placeholder="City"
-            value={searchCity}
-            onChange={(e) => setSearchCity(e.target.value)}
+            value={city}
+            onChange={(e) => setCity(e.target.value)}
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400"
           />
         </div>
@@ -32,8 +37,8 @@ const FilterBar = ({
             Category
           </label>
           <select
-            value={selectedCategory}
-            onChange={(e) => setSelectedCategory(e.target.value)}
+            value={category}
+            onChange={(e) => setCategory(e.target.value)}
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400"
           >
             <option value="">All Categories</option>
