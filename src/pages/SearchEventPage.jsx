@@ -1,6 +1,6 @@
 import { useEventContext } from "../context/EventContext";
-import EventList from "../components/EventList";
-import { FilterBar } from "../components/";
+import EventList from "../components/common/EventList";
+import { FilterBar } from "../components/common";
 
 const SearchEventPage = () => {
   const { filteredData } = useEventContext();

@@ -71,6 +71,7 @@ export const EventProvider = ({ children }) => {
         handleSearch,
         filteredData,
         loading,
+        events,
         applyFilters,
         bookmarks,
         handleBookmark,

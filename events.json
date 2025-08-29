@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Tech Meetup London",
-      "date": "2025-08-15",
+      "date": "2025-08-27",
       "category": "Technology",
       "location": "London",
       "description": "Monthly meetup for local tech enthusiasts. Monthly meetup for local tech enthusiasts.",
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "title": "Jazz Night Edinburgh",
-      "date": "2025-08-25",
+      "date": "2025-09-28",
       "category": "Music",
       "location": "Edinburgh",
       "description": "Live jazz performances by local artists. Live jazz performances by local artists. Live jazz performances by local artists. Live jazz performances by local artists.  Live jazz performances by local artists.  Live jazz performances by local artists.  Live jazz performances by local artists.  Live jazz performances by local artists.  Live jazz performances by local artists.  Live jazz performances by local artists.  ",
@@ -39,11 +39,30 @@
     {
       "id": 5,
       "title": "Tech Meet",
-      "date": "2025-08-23",
+      "date": "2025-08-27",
       "category": "Technology",
       "location": "Ashford",
       "description": "Oppotunity for graduates. Oppotunity for graduates. Oppotunity for graduates. Oppotunity for graduates. Oppotunity for graduates. Oppotunity for graduates.",
       "image": "Event 1.jpg"
+    },
+
+    {
+      "id": 6,
+      "title": "Jazz Night",
+      "date": "2025-09-28",
+      "category": "Music",
+      "location": "Edinburgh",
+      "description": "Live jazz performances by local artists. Live jazz performances by local artists. Live jazz performances by local artists. Live jazz performances by local artists.  Live jazz performances by local artists.  Live jazz performances by local artists.",
+      "image": "Event 3.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Food Festival",
+      "date": "2025-10-05",
+      "category": "Food",
+      "location": "Birmingham",
+      "description": "A festival celebrating local cuisine. A festival celebrating local cuisine. A festival celebrating local cuisine. A festival celebrating local cuisine. A festival celebrating local cuisine. A festival celebrating local cuisine.",
+      "image": "Event 2.jpg"
     }
   ]
 }
