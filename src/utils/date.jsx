@@ -36,3 +36,13 @@ export function formatDate(dateInput) {
 
   return relativeDate ? `${absoluteDate} •${relativeDate}` : absoluteDate;
 }
+
+export function formatAbsoluteDate(dateInput) {
+  const date = new Date(dateInput);
+  const absoluteDate = date.toLocaleDateString("en-UK", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  });
+  return absoluteDate;
+}
