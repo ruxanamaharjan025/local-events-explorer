@@ -1,0 +1,39 @@
+import { Computer, Palette, Music, Briefcase, Utensils, Dumbbell } from "lucide-react";
+
+export const categoryStyles = [
+    {
+    name: "Technology",
+    bg: "bg-yellow-100",
+    text: "text-yellow-900",
+    icon: Computer,
+  },
+  {
+    name: "Art",
+    bg: "bg-pink-100",
+    text: "text-pink-900",
+    icon: Palette,
+  },
+  {
+    name: "Music",
+    bg: "bg-green-100",
+    text: "text-green-900",
+    icon: Music,
+  },
+  {
+    name: "Business",
+    bg: "bg-blue-100",
+    text: "text-blue-900",
+    icon: Briefcase,
+  },
+  {
+    name: "Food",
+    bg: "bg-brown-100",
+    text: "text-brown-900",
+    icon: Utensils,
+  },
+  {
+    name: "Sports",
+    bg: "bg-purple-100",
+    text: "text-purple-900",
+    icon: Dumbbell,
+  },];
